@@ -1,3 +1,8 @@
+import scapy.all as scapy 
+
+request = scapy.ARP() 
+
+
 msg = 'this is where you can add devices to your device list'
 
 print(msg)
